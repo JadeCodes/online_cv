@@ -14,11 +14,13 @@ These are the steps I took to complete this:
     - Custom color pallet - https://kuler.adobe.com/Online-CV-(1)-color-theme-3926340/ 
 4. Choose fonts using Google Fonts
     - Codystar - https://www.google.com/fonts/specimen/Codystar (used for main heading)
-    - Droid Sans - https://www.google.com/fonts/specimen/Droid+Sans (used for all other sub-headings and text)
-5. Select free social media icon images and then edit in Photoshop to match colour pallet
+    - Droid Sans - https://www.google.com/fonts/specimen/Droid+Sans (used for all sub-headings and text)
+5. Select free social media icon images and then edit in Photoshop to match color pallet
     - Source for icons - http://tinktank.in/free-flat-social-icons/ 
-6. Write HTML for first version of CV in Sublime Text 2
-7. Write CSS for first version of CV in Sublime Text 2
+6. Create an infographic and then edit in Photoshop to match color pallet
+    - I used Piktochart to create my infographic -  http://piktochart.com/ 
+7. Write HTML for first version of CV in Sublime Text 2
+8. Write CSS for first version of CV in Sublime Text 2
 
 **End Goal**
 
