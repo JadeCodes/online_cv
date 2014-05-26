@@ -141,6 +141,7 @@ p
 	text-align: center;
 }
 
+/*responsive design*/
 @media only screen and (max-width:725px), only screen and (max-device-width:725px) {
 		.left,
 		.right,
