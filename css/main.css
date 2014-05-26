@@ -23,6 +23,22 @@ body
     text-decoration: none;
 }
 
+.left 
+{
+	float: left;
+	width: 46%;
+	text-align: left;
+	padding-bottom: 25px;
+}
+
+.right 
+{
+	float: right;
+	width: 46%;
+	text-align: justify;
+	padding-bottom: 0;
+}
+
 h1 
 {
 	font-family: Codystar, cursive;
@@ -65,25 +81,13 @@ h4 span
 	font-weight: bold;
 }
 
-ul
-{
-    list-style-type: none;
-    color: #4F4F4F;
-}
-
 p 
 {
 	color: #4F4F4F;
 	font-size: 16px;
 }
 
-.about
-{
-	padding-bottom: 40px;
-	text-align: justify;
-	line-height: 25px;
-}
-
+.about,
 .education
 {
 	padding-bottom: 40px;
@@ -96,7 +100,8 @@ p
 	padding-bottom: 18px;
 }
 
-.skills 
+.skills,
+.work 
 {
 	padding-bottom: 20px;
 	text-align: justify;
@@ -108,34 +113,9 @@ p
 	display: none;
 }
 
-ul 
-{
-	font-size: 16px;
-}
-
-.work
-{
-	padding-bottom: 20px;
-	text-align: justify;
-	line-height: 25px;
-}
-
-.airnz
-{
-	padding-bottom: 20px;
-}
-
-.xero
-{
-	padding-bottom: 20px;
-}
-
+.airnz,
+.xero,
 .locog
-{
-	padding-bottom: 20px;
-}
-
-.numero
 {
 	padding-bottom: 20px;
 }
@@ -153,22 +133,6 @@ ul
     padding-top: 25px;
 }
 
-.left 
-{
-	float: left;
-	width: 46%;
-	text-align: left;
-	padding-bottom: 25px;
-}
-
-.right 
-{
-	float: right;
-	width: 46%;
-	text-align: justify;
-	padding-bottom: 0;
-}
-
 .icons li 
 {
 	float: left;
@@ -181,36 +145,43 @@ ul
 		.left,
 		.right,
 		.header,
-		.contact {
+		.contact 
+		{
 			float: none;
 			width: 90%;
 			position: relative;
 			margin: 5px auto 5px;
 			padding-bottom: 0;
 		}
-		.header h1 {
+		.header h1 
+		{
 			font-size: 35px;
 		}
 		.left h2,
 		.right h2,
-		.contact h2 {
+		.contact h2 
+		{
 			font-size: 20px;
 		}
 		.left h3,
-		.right h3 {
+		.right h3 
+		{
 			font-size: 16px;
 		}
 		.left h4,
 		.right h4,
-		h4 span {
+		h4 span 
+		{
 			font-size: 13px;
 		}
 		.left p,
 		.right p,
-		.contact p {
+		.contact p 
+		{
 			font-size: 12px;
 		}
-		.skills #infographic {
+		.skills #infographic 
+		{
 			display: none;
 		}
 		.skills #mobile {
