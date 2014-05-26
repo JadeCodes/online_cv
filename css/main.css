@@ -32,6 +32,7 @@ h1
 	padding-bottom: 25px;
 	max-width: 800px;
 	text-align: center;
+	margin: 40px auto 40px;
 }
 
 h2 
@@ -102,6 +103,11 @@ p
 	line-height: 25px;
 }
 
+.skills #mobile 
+{
+	display: none;
+}
+
 ul 
 {
 	font-size: 16px;
@@ -109,7 +115,7 @@ ul
 
 .work
 {
-	padding-bottom: 0;
+	padding-bottom: 20px;
 	text-align: justify;
 	line-height: 25px;
 }
@@ -160,7 +166,7 @@ ul
 	float: right;
 	width: 46%;
 	text-align: justify;
-	padding-bottom: 25px;
+	padding-bottom: 0;
 }
 
 .icons li 
@@ -170,3 +176,44 @@ ul
 	width: 25%;
 	text-align: center;
 }
+
+@media only screen and (max-width:725px), only screen and (max-device-width:725px) {
+		.left,
+		.right,
+		.header,
+		.contact {
+			float: none;
+			width: 90%;
+			position: relative;
+			margin: 5px auto 5px;
+			padding-bottom: 0;
+		}
+		.header h1 {
+			font-size: 35px;
+		}
+		.left h2,
+		.right h2,
+		.contact h2 {
+			font-size: 20px;
+		}
+		.left h3,
+		.right h3 {
+			font-size: 16px;
+		}
+		.left h4,
+		.right h4,
+		h4 span {
+			font-size: 13px;
+		}
+		.left p,
+		.right p,
+		.contact p {
+			font-size: 12px;
+		}
+		.skills #infographic {
+			display: none;
+		}
+		.skills #mobile {
+			display: block;
+		}
+	}
