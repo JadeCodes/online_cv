@@ -21,6 +21,8 @@ These are the steps I took to complete this:
     - I used Piktochart to create my infographic -  http://piktochart.com/ 
 7. Write HTML for first version of CV in Sublime Text 2
 8. Write CSS for first version of CV in Sublime Text 2
+9. Added hover.css (http://ianlunn.github.io/Hover/) for effects on my links
+10. Added media queries for responsive web design for different screen sizes
 
 **End Goal**
 
@@ -30,7 +32,7 @@ For the first version of my online CV I would like to achieve the following:
 * Simple harmonious design
 * Use CSS properties correctly to achieve design ideas
 * Adding google analytics for tracking site traffic
-* GitHub Pages set up with personal URL
+* GitHub Pages set up with personal URL (www.jadeshearstone.me)
 * Use Photoshop to edit images
 * Create a responsive page for any screen size
 
